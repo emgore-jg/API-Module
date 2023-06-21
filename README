@@ -1,0 +1,19 @@
+Welcome to my API:
+
+Steps to run:
+1. open the terminal and navigate to the project directory
+2. $set FLASK_APP=hello
+3. $flask run
+
+Valid endpoints:
+GET: localhost:5000/show
+will display all the pets currently stored
+
+POST: localhost:5000/add/name-to-add
+will add the pet name to the stored list
+
+PUT: localhost:5000/old-name/new-name
+will rename the pet with the new name
+
+DELETE: localhost:5000/yeet/name-to-remove
+will remove the pet given
